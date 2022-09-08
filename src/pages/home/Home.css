@@ -1,3 +1,4 @@
-.home{
-    color: blue;
+.homecontainer{
+    display: flex;
+    width: 100%;
 }

@@ -35,8 +35,11 @@
 }
 .searchInput{
     border: none;
-    outline: none;
+    /* outline: none; */
     width: 70%;
+}
+.searchInput:focus{
+    outline: none;
 }
 .topbarRight{
     flex: 4;

@@ -21,7 +21,7 @@ function Topbar() {
     <div className='topbarContainer'>
         {/* topbar left */}
         <div className="topbarLeft">
-            <span className='logo'>lama social</span>
+            <span className='logo'>Dana Social</span>
         </div>
 
         {/* topbar center */}
