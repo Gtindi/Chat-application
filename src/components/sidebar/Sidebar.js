@@ -48,6 +48,34 @@ const friendlists = [
     {
         fname: 'john doe',
         image: '../assets/person/p3.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p2.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p3.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p2.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p3.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p2.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p3.jpg'
+    },
+    {
+        fname: 'john doe',
+        image: '../assets/person/p2.jpg'
     }
 ]
 function Sidebar() {
