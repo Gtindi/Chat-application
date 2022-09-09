@@ -40,6 +40,9 @@
     margin-right: 15px;
     cursor: pointer;
 }
+.shareicon{
+    margin-right: 5px;
+}
 .shareoptiontext{
     font-size: 14px;
     font-weight: 500;
