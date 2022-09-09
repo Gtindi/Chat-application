@@ -3,7 +3,9 @@ import './feed.css'
 
 function Feed() {
   return (
-    <div className='feed'>Feed</div>
+    <div className='feed'>
+        <div className="feedwrapper"></div>
+    </div>
   )
 }
 
