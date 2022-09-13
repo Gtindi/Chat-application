@@ -1,6 +1,24 @@
 import React from 'react'
 import './right.css'
 
+const friendlists = [
+  {
+    img: '../assets/person/p1.jpg',
+    name: 'mwende joe'
+  },
+  {
+    img: '../assets/person/p2.jpg',
+    name: 'ndinda joe'
+  },
+  {
+    img: '../assets/person/p3.jpg',
+    name: 'kira joe'
+  },
+  {
+    img: '../assets/person/p4.jpg',
+    name: 'alpha joe'
+  }
+]
 function Rightbar() {
   return (
     <div className='rightbar'>
@@ -12,13 +30,16 @@ function Rightbar() {
         <img src="../assets/ad.jpg" alt="rightad" className='rightbarad'/>
         <h4 className="rightbartitle">Online friends</h4>
         <ul className='rightbarfriendlist'>
-          <li className='rightbarfriend'>
+          {friendlists.map(friendlist =>
+            <li className='rightbarfriend'>
             <div className="rightbarprofileimgcontainer">
-              <img src="../assets/person/p1.jpg" alt="p1" className="rightbarprofileimg" />
+              <img src={friendlist.img} alt="p1" className="rightbarprofileimg" />
               <span className="rightbaronline"></span>
             </div>
-            <span className="rightbarusername">mwende joe</span>
+            <span className="rightbarusername">{friendlist.name}</span>
           </li>
+            )}
+          
         </ul>
       </div>
       </div>

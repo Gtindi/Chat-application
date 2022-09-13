@@ -2,14 +2,14 @@ import React from 'react'
 import './post.css'
 import {MoreVert} from '@mui/icons-material'
 
-function Post() {
+function Post({post}) {
   return (
     <div className='post'>
         <div className="postwrapper">
             {/* post top */}
             <div className="posttop">
                 <div className="posttopleft">
-                    <img className='postprofileimg' src="../assets/person/p5.jpg" alt="person5" />
+                    <img className='postprofileimg' src={post.photo}alt="person5" />
                     <span className="postusername">deedee nyamai</span>
                     <span className="postDate">10 mins ago</span>
                 </div>
