@@ -28,7 +28,7 @@ export const postdata = [
         username: 'hilka don',
         photo: '../assets/post/post3.jpg',
         date: '5mins ago',
-        userid: 4,
+        userid: 3,
         like: 32,
         comment: 9
     },

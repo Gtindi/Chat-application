@@ -10,8 +10,8 @@ function Post({post}) {
             {/* post top */}
             <div className="posttop">
                 <div className="posttopleft">
-                    <img className='postprofileimg' src={post.profile}alt="person5" />
-                    <span className="postusername">{postdata.filter(p => p.id === post.userid)[0].username}</span>
+                    <img className='postprofileimg' src={postdata.filter(p => p.id === post?.userid)[0].profile} alt="person5" />
+                    <span className="postusername">{postdata.filter(p => p.id === post?.userid)[0].username}</span>
                     <span className="postDate">{post.date}</span>
                 </div>
                 <div className="posttopright"><MoreVert/></div>
